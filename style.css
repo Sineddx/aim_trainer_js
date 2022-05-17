@@ -1,0 +1,98 @@
+canvas {
+    border: 3px solid;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #decba4, #3e5151);
+}
+
+.canva {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+.b{
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:cornflowerblue;
+    border-radius: 3em;
+    border-color: saddlebrown;
+    width: 300%;
+    height: 10%;
+}
+.userPanel{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.score{
+
+    margin-bottom: 5em;
+}
+.points{
+    height: 3.5em;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight: 800;
+}
+.fails{
+    height: 3.5em;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight: 800;
+}
+.points span{
+    color: green;
+}
+.fails span{
+    color: red;
+}
+.start{
+    font-weight: 800;
+    background-color: wheat;
+    color:darkcyan;
+    margin-top: 1em;
+    height: 3em;
+    width: 100%;
+    border: none;
+    border-radius: 2em;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+}
+.gameover{
+    background-color: red;
+    width: 31.5%;
+    height: 30%;
+    position: absolute;
+    left: 28%;
+    top: 25%;
+    visibility: hidden;
+}
+.gameover span{
+    color: white;
+    margin-top: 3em;
+    font-style: italic;
+    font-weight: 900;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
